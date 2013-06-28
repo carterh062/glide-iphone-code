@@ -1,9 +1,9 @@
 //
 //  GlideAppDelegate.m
-//  Glide Alpha
+//  SeatMe
 //
 //  Created by Carter on 6/27/13.
-//  Copyright (c) 2013 Carter. All rights reserved.
+//  Copyright (c) 2013 Glide. All rights reserved.
 //
 
 #import "GlideAppDelegate.h"
@@ -13,11 +13,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-        splitViewController.delegate = (id)navigationController.topViewController;
-    }
     return YES;
 }
 							

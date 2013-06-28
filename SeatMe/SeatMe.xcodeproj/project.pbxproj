@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADBC1BD3177D0D41000E7C0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBC1BD2177D0D41000E7C0B /* UIKit.framework */; };
+		ADBC1BD5177D0D41000E7C0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBC1BD4177D0D41000E7C0B /* Foundation.framework */; };
+		ADBC1BD7177D0D41000E7C0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBC1BD6177D0D41000E7C0B /* CoreGraphics.framework */; };
+		ADBC1BDD177D0D41000E7C0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADBC1BDB177D0D41000E7C0B /* InfoPlist.strings */; };
+		ADBC1BDF177D0D41000E7C0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1BDE177D0D41000E7C0B /* main.m */; };
+		ADBC1BE3177D0D41000E7C0B /* GlideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1BE2177D0D41000E7C0B /* GlideAppDelegate.m */; };
+		ADBC1BE5177D0D41000E7C0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBC1BE4177D0D41000E7C0B /* Default.png */; };
+		ADBC1BE7177D0D41000E7C0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBC1BE6177D0D41000E7C0B /* Default@2x.png */; };
+		ADBC1BE9177D0D41000E7C0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBC1BE8177D0D41000E7C0B /* Default-568h@2x.png */; };
+		ADBC1BEC177D0D41000E7C0B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBC1BEA177D0D41000E7C0B /* MainStoryboard_iPhone.storyboard */; };
+		ADBC1BEF177D0D41000E7C0B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBC1BED177D0D41000E7C0B /* MainStoryboard_iPad.storyboard */; };
+		ADBC1BF2177D0D41000E7C0B /* GlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1BF1177D0D41000E7C0B /* GlideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADBC1BCF177D0D41000E7C0B /* SeatMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBC1BD2177D0D41000E7C0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADBC1BD4177D0D41000E7C0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADBC1BD6177D0D41000E7C0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADBC1BDA177D0D41000E7C0B /* SeatMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeatMe-Info.plist"; sourceTree = "<group>"; };
+		ADBC1BDC177D0D41000E7C0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADBC1BDE177D0D41000E7C0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADBC1BE0177D0D41000E7C0B /* SeatMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeatMe-Prefix.pch"; sourceTree = "<group>"; };
+		ADBC1BE1177D0D41000E7C0B /* GlideAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlideAppDelegate.h; sourceTree = "<group>"; };
+		ADBC1BE2177D0D41000E7C0B /* GlideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlideAppDelegate.m; sourceTree = "<group>"; };
+		ADBC1BE4177D0D41000E7C0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ADBC1BE6177D0D41000E7C0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ADBC1BE8177D0D41000E7C0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ADBC1BEB177D0D41000E7C0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		ADBC1BEE177D0D41000E7C0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		ADBC1BF0177D0D41000E7C0B /* GlideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlideViewController.h; sourceTree = "<group>"; };
+		ADBC1BF1177D0D41000E7C0B /* GlideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBC1BCC177D0D41000E7C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBC1BD3177D0D41000E7C0B /* UIKit.framework in Frameworks */,
+				ADBC1BD5177D0D41000E7C0B /* Foundation.framework in Frameworks */,
+				ADBC1BD7177D0D41000E7C0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADBC1BC6177D0D41000E7C0B = {
+			isa = PBXGroup;
+			children = (
+				ADBC1BD8177D0D41000E7C0B /* SeatMe */,
+				ADBC1BD1177D0D41000E7C0B /* Frameworks */,
+				ADBC1BD0177D0D41000E7C0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBC1BD0177D0D41000E7C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC1BCF177D0D41000E7C0B /* SeatMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBC1BD1177D0D41000E7C0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC1BD2177D0D41000E7C0B /* UIKit.framework */,
+				ADBC1BD4177D0D41000E7C0B /* Foundation.framework */,
+				ADBC1BD6177D0D41000E7C0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADBC1BD8177D0D41000E7C0B /* SeatMe */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC1BE1177D0D41000E7C0B /* GlideAppDelegate.h */,
+				ADBC1BE2177D0D41000E7C0B /* GlideAppDelegate.m */,
+				ADBC1BEA177D0D41000E7C0B /* MainStoryboard_iPhone.storyboard */,
+				ADBC1BED177D0D41000E7C0B /* MainStoryboard_iPad.storyboard */,
+				ADBC1BF0177D0D41000E7C0B /* GlideViewController.h */,
+				ADBC1BF1177D0D41000E7C0B /* GlideViewController.m */,
+				ADBC1BD9177D0D41000E7C0B /* Supporting Files */,
+			);
+			path = SeatMe;
+			sourceTree = "<group>";
+		};
+		ADBC1BD9177D0D41000E7C0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC1BDA177D0D41000E7C0B /* SeatMe-Info.plist */,
+				ADBC1BDB177D0D41000E7C0B /* InfoPlist.strings */,
+				ADBC1BDE177D0D41000E7C0B /* main.m */,
+				ADBC1BE0177D0D41000E7C0B /* SeatMe-Prefix.pch */,
+				ADBC1BE4177D0D41000E7C0B /* Default.png */,
+				ADBC1BE6177D0D41000E7C0B /* Default@2x.png */,
+				ADBC1BE8177D0D41000E7C0B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBC1BCE177D0D41000E7C0B /* SeatMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBC1BF5177D0D41000E7C0B /* Build configuration list for PBXNativeTarget "SeatMe" */;
+			buildPhases = (
+				ADBC1BCB177D0D41000E7C0B /* Sources */,
+				ADBC1BCC177D0D41000E7C0B /* Frameworks */,
+				ADBC1BCD177D0D41000E7C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeatMe;
+			productName = SeatMe;
+			productReference = ADBC1BCF177D0D41000E7C0B /* SeatMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBC1BC7177D0D41000E7C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Glide;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Glide;
+			};
+			buildConfigurationList = ADBC1BCA177D0D41000E7C0B /* Build configuration list for PBXProject "SeatMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADBC1BC6177D0D41000E7C0B;
+			productRefGroup = ADBC1BD0177D0D41000E7C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBC1BCE177D0D41000E7C0B /* SeatMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBC1BCD177D0D41000E7C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBC1BDD177D0D41000E7C0B /* InfoPlist.strings in Resources */,
+				ADBC1BE5177D0D41000E7C0B /* Default.png in Resources */,
+				ADBC1BE7177D0D41000E7C0B /* Default@2x.png in Resources */,
+				ADBC1BE9177D0D41000E7C0B /* Default-568h@2x.png in Resources */,
+				ADBC1BEC177D0D41000E7C0B /* MainStoryboard_iPhone.storyboard in Resources */,
+				ADBC1BEF177D0D41000E7C0B /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBC1BCB177D0D41000E7C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBC1BDF177D0D41000E7C0B /* main.m in Sources */,
+				ADBC1BE3177D0D41000E7C0B /* GlideAppDelegate.m in Sources */,
+				ADBC1BF2177D0D41000E7C0B /* GlideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADBC1BDB177D0D41000E7C0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBC1BDC177D0D41000E7C0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADBC1BEA177D0D41000E7C0B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBC1BEB177D0D41000E7C0B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ADBC1BED177D0D41000E7C0B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBC1BEE177D0D41000E7C0B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADBC1BF3177D0D41000E7C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADBC1BF4177D0D41000E7C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBC1BF6177D0D41000E7C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeatMe/SeatMe-Prefix.pch";
+				INFOPLIST_FILE = "SeatMe/SeatMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADBC1BF7177D0D41000E7C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeatMe/SeatMe-Prefix.pch";
+				INFOPLIST_FILE = "SeatMe/SeatMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBC1BCA177D0D41000E7C0B /* Build configuration list for PBXProject "SeatMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBC1BF3177D0D41000E7C0B /* Debug */,
+				ADBC1BF4177D0D41000E7C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBC1BF5177D0D41000E7C0B /* Build configuration list for PBXNativeTarget "SeatMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBC1BF6177D0D41000E7C0B /* Debug */,
+				ADBC1BF7177D0D41000E7C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADBC1BC7177D0D41000E7C0B /* Project object */;
+}
